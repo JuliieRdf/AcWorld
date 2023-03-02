@@ -3,9 +3,9 @@
 <%= render @person %>
 
 <div>
-<button type="button" class="btn btn-primary"> <%= link_to "Modifier cet habitant", edit_person_path(@person) %> |</button>
+<button type="button" class="btn btn-primary"> <%= link_to "Modifier cet habitant", edit_person_path(@person) %> </button>
 <button type="button" class="btn btn-primary"><%= link_to "Retour à la page principale", people_path %></button>
-<div class="btn-danger">
+<div class="btn btn-danger">
 <%= button_to "Supprimer cet habitant", @person, method: :delete %>
 </div>
 </div>
