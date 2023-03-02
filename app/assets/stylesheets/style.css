@@ -1,10 +1,18 @@
 h1 {
     color:cadetblue;
 }
+h2{
+    display: flex;
+    justify-content: center;
+}
 a{color: white;}
 .btn-primary{
     background-color: cornflowerblue;
 }
 a:hover{
     color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
 }
