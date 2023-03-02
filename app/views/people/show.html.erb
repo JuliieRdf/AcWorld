@@ -3,8 +3,8 @@
 <%= render @person %>
 
 <div>
-<button type="button" class="btn btn-primary" style="color:white"> <%= link_to "Edit this person", edit_person_path(@person) %> |</button>
-<button type="button" class="btn btn-primary" style="color:white"><%= link_to "Back to people", people_path %></button>
+<button type="button" class="btn btn-primary"> <%= link_to "Modifier cet habitant", edit_person_path(@person) %> |</button>
+<button type="button" class="btn btn-primary"><%= link_to "Retour à la page principale", people_path %></button>
 
-  <button type="button" class="btn btn-primary" style="color:white"> <%= link_to "Destroy this person", @person, method: :delete %></button>
+  <button type="button" class="btn btn-danger"> <%= link_to "Supprimer cet habitant", @person, method: :delete %></button>
 </div>
