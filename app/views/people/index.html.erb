@@ -2,13 +2,29 @@
 
 <h1 style="display:flex; justify-content: center">Bienvenue sur notre site</h1>
 <h3>Nous nous sommes inspiré du jeu Animal Crossing New Horizons, et nous avons créer de nouveaux habitants en demandant à MidJourney de nous générer des images de ces derniers à partir de leurs caractéristiques</h3>
-<div id="people">
-  <% @people.each do |person| %>
-    <%= render person %>
-    <p>
-    <button type="button" class="btn btn-primary"> <%= link_to "Voir cet habitant", person %></button>
-    </p>
-  <% end %>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+
+      
+      <div id="people" class="col-4">
+        <% @people.each do |person| %>
+        <div class='bloc'>
+          <%= render person %>
+          <p>
+            <button type="button" class="btn btn-primary"> <%= link_to "Voir cet habitant", person %></button>
+          </p>
+        </div>
+        <% end %>
+      </div>
+      
+
+    </div>
+    <div class="col-&"></div>
+  </div>
 </div>
+
 
 <button type="button" class="btn btn-success"><%= link_to "Créer un nouvel habitant", new_person_path %> </button>
