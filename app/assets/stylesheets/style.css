@@ -6,9 +6,6 @@ h2{
     justify-content: center;
 }
 a{color: white;}
-.btn-primary{
-    background-color: cornflowerblue;
-}
 a:hover{
     color: white;
 }
@@ -16,4 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+p{
+    font-size: 24px;
 }
