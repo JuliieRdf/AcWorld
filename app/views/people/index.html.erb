@@ -6,7 +6,7 @@
   <% @people.each do |person| %>
     <%= render person %>
     <p>
-      <%= link_to "Show this person", person %>
+    <button type="button" class="btn btn-primary"> <%= link_to "Show this person", person %></button>
     </p>
   <% end %>
 </div>
