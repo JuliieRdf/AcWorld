@@ -42,3 +42,9 @@ p{
 .btn-primary{
     background-color:cadetblue;
 }
+.trait {
+    background-color:cadetblue;
+    width: 120%;
+    height: 2px;
+    margin-bottom: -10px;
+}
