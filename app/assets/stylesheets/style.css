@@ -77,12 +77,13 @@ img {
 }
 
 header {
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 
 .navig {
     display: flex;
+    justify-content: center;
 
 }
 img{
@@ -98,5 +99,5 @@ img{
 }
 
 .lienlogo {
-    height: 150px;
+    height: 200px;
 }
