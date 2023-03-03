@@ -4,7 +4,7 @@ h1 {
     justify-content: center;
     font-weight: bold;
     font-family: Verdana;
-
+margin-bottom: 2%;
 }
 h2{
     display: flex;
@@ -35,7 +35,7 @@ p{
 .btn{
     display: flex;
     justify-content: center;
-    margin-top: 5px;
+    margin: 10px,0,0,0;
 }
 .formmulaire{
     display: flex;
@@ -56,3 +56,6 @@ p{
 body{
     font-family: Verdana;
 } 
+header{
+    margin-bottom: 5%;
+}
