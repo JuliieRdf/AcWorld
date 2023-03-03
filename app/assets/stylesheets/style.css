@@ -7,15 +7,11 @@ h1 {
     margin-bottom: 2%;
 }
 
-h2 {
-    display: flex;
-    justify-content: center;
-}
-
-h3{
-        font-size: 18px;
+h3 {
+    font-size: 18px;
     margin-left: 2vw;
-   
+    font-family: "FinkHeavy"
+
 }
 
 a {
@@ -30,7 +26,8 @@ a:hover {
 
 p {
     font-size: 16px;
-    
+
+
 }
 
 .bloc {
@@ -52,17 +49,18 @@ p {
 
 .formmulaire {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: flex-end;
     margin-bottom: 5%;
 }
 
 .btn-primary {
-    background-color:#906F39 ;
+    background-color: #906F39;
     border-color: #906F39;
 }
-.btn-primary:hover{
-    background-color:#906F39 ;
+
+.btn-primary:hover {
+    background-color: #906F39;
     border-color: #906F39;
 }
 
@@ -71,9 +69,9 @@ p {
 body {
     font-family: Verdana;
     margin-bottom: 2%;
-    
-    
-    
+
+
+
 }
 
 img {
@@ -91,8 +89,9 @@ header {
     justify-content: center;
 
 }
-img{
-    
+
+img {
+
     margin-bottom: 5%;
     border-radius: 5%;
 }
@@ -106,6 +105,7 @@ img{
 .lienlogo {
     height: 200px;
 }
+
 @font-face {
     font-family: "FinkHeavy";
     src: url(FinkHeavy.woff);
