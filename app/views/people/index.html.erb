@@ -1,6 +1,6 @@
 <p style="color: green"><%= notice %></p>
 
-<h1 style="display:flex; justify-content: center">Bienvenue sur notre site ACWorld</h1>
+<h1 style="display:flex; justify-content: cente">Bienvenue sur notre site ACWorld</h1>
 <h3>Nous nous sommes inspirées du jeu Animal Crossing New Horizons, et nous avons créé de nouveaux habitants en demandant à MidJourney de nous générer des images de ces derniers à partir de leurs caractéristiques.</h3>
 
 <div class="container-fluid">
@@ -12,7 +12,7 @@
       <div id="people" class="col-12">
         <% @people.each do |person| %>
         <div class='bloc' class="col-4">
-          <p style="display: flex; justify-content: center"><%= person.name%></p>
+          <p style="display: flex; justify-content: center; font-size: 30px;"><%= person.name%></p>
             <img style="max-width: 29vw" src="<%= person.photo %>">
           <p><button type="button" class="btn btn-primary"> <%= link_to "Voir cet habitant", person %></button></p>
         </div>
