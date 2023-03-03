@@ -2,6 +2,7 @@ h1 {
     color:cadetblue;
     display: flex;
     justify-content: center;
+    font-weight: bolds;
 
 }
 h2{
@@ -32,8 +33,12 @@ p{
 .btn{
     display: flex;
     justify-content: center;
+    margin: auto;
 }
 .formmulaire{
     display: flex;
     justify-content: center;
+}
+.btn-primary{
+    background-color:cadetblue;
 }
