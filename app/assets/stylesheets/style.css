@@ -43,9 +43,11 @@ p{
 }
 .btn-primary{
     background-color:cadetblue;
+    border-color: cadetblue;
 }
 .trait {
     background-color:cadetblue;
+    border-color: cadetblue;
     width: 120%;
     height: 2px;
     margin-bottom: -10px;
