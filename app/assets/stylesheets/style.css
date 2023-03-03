@@ -35,7 +35,7 @@ p{
 .btn{
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin-top: 5px;
 }
 .formmulaire{
     display: flex;
@@ -55,4 +55,9 @@ p{
 
 body{
     font-family: Verdana;
+} 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
