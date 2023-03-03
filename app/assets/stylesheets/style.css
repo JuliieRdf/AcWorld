@@ -10,10 +10,12 @@ h1 {
 h3 {
     font-size: 18px;
     margin-left: 2vw;
-    font-family: "FinkHeavy"
-
+font-family: Verdana;
 }
-
+.jeu{
+    background-color: aqua;
+    font-family: "FinkHeavy";
+}
 a {
     color: white;
     text-decoration: none;
