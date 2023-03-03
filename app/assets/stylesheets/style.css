@@ -29,7 +29,7 @@ p{
     display: flex;
     flex-wrap: wrap;
 }
-.btnCreate{
+.btn{
     display: flex;
     justify-content: center;
 }
