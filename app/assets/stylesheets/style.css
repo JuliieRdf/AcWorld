@@ -1,5 +1,5 @@
 h1 {
-    color: cadetblue;
+    color:#E5B946;
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -83,10 +83,6 @@ img {
 
 header {
     margin-bottom: 5%;
-}
-
-.titreheader {
-    margin: auto;
 }
 
 .navig {
