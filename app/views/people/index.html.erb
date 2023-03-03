@@ -13,7 +13,7 @@
         <% @people.each do |person| %>
         <div class='bloc' class="col-4">
           <p><%= person.name%></p>
-            <img style="max-width: 30vw" src="<%= person.photo %>">
+            <img style="max-width: 29vw" src="<%= person.photo %>">
           <p><button type="button" class="btn btn-primary"> <%= link_to "Voir cet habitant", person %></button></p>
         </div>
         <% end %>
