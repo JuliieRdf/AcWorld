@@ -28,6 +28,7 @@ p{
 #people{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .btnCreate{
     display: flex;
@@ -37,3 +38,4 @@ p{
     display: flex;
     justify-content: center;
 }
+
