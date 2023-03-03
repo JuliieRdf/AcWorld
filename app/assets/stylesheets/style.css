@@ -46,7 +46,9 @@ p {
 
 .formmulaire {
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
+    align-items: flex-end;
+    margin-bottom: 5%;
 }
 
 .btn-primary {
