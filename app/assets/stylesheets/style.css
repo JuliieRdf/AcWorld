@@ -79,7 +79,6 @@ img {
 }
 
 header {
-    margin-bottom: 2%;
     background-image: url(https://cdn.discordapp.com/attachments/887412598297989140/1081312981360595084/telechargement.png);
 }
 
@@ -101,6 +100,7 @@ img {
     width: auto;
     height: 100%;
     margin-left: 1vw;
+    margin-top: 1%;
 }
 
 .lienlogo {
