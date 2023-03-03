@@ -55,8 +55,7 @@ p {
 }
 
 .trait {
-    background-color: cadetblue;
-    border-color: cadetblue;
+    background-color: black;
     width: 100%;
     height: 2px;
     margin-bottom: -10px;
@@ -83,6 +82,8 @@ header {
 
 }
 img{
+    margin-bottom: 5%;
+}img{
     margin-bottom: 5%;
 }
 
