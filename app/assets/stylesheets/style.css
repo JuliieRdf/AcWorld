@@ -2,6 +2,7 @@ h1 {
     color:cadetblue;
     display: flex;
     justify-content: center;
+    font-weight: bold;
 
 }
 h2{
@@ -30,12 +31,21 @@ p{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.btnCreate{
+.btn{
     display: flex;
     justify-content: center;
+    margin: auto;
 }
 .formmulaire{
     display: flex;
     justify-content: center;
 }
-
+.btn-primary{
+    background-color:cadetblue;
+}
+.trait {
+    background-color:cadetblue;
+    width: 120%;
+    height: 2px;
+    margin-bottom: -10px;
+}
