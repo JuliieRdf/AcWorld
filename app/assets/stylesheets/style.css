@@ -63,8 +63,14 @@ p {
     background-color: #906F39;
     border-color: #906F39;
 }
-
-
+.btn-success{
+    background-color: #8DC9A4;
+    border-color: #8DC9A4;
+}
+.btn-success:hover{
+    background-color: #8DC9A4;
+    border-color: #8DC9A4;
+}
 
 body {
     font-family: Verdana;
