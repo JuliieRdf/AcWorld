@@ -3,6 +3,7 @@ h1 {
     display: flex;
     justify-content: center;
     font-weight: bold;
+    font-family: Verdana;
 
 }
 h2{
@@ -48,4 +49,8 @@ p{
     width: 120%;
     height: 2px;
     margin-bottom: -10px;
+}
+
+body{
+    font-family: Verdana;
 }
